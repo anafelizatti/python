@@ -1,0 +1,7 @@
+nro = int(input("Digite um nro inteiro : "))
+nro2 =int(input("Digite outro número: "))
+print (" O numero inteiro é {} \n Seu sucessor é {} \n Seu antecessor é {}".format (nro, nro+1, nro-1))
+print (" O seu dobro é {} \n Seu triplo é {}  \n Sua raiz quadrada é {} " .format (nro*2, nro*3, nro ** (1/2)))
+print (" A média digitada é {}".format((nro+nro2)/2))
+metros = float(input("Quantos metros? "))
+print (" Em centimetros {} \n Em milímetros {}".format (metros/100, metros/1000))

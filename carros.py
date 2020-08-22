@@ -1,0 +1,10 @@
+day = int(input("Quantos dias você ficará ou ficou com o carro? "))
+km = float(input("Quantos km você andará ou andou? "))
+valordia = (day * 60)
+valorkm = (km * 0.15)
+total = (valordia) + (valorkm)
+print ("Você pagará: \n R$ {}.00 por {} dia(s) \n R$ {} por {} km \n Total: R${}".format(valordia, day, valorkm, km, total))
+#FORMATAÇÃO DINHEIRO : {:.2f} => nro, ponto, 2 casas decimais
+#print ("teste formatação {:.2f}".format(total))
+#print ("teste formatação {:.1f}".format(total))
+#print ("teste formatação {:.3f}".format(total))
