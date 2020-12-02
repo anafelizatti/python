@@ -1,2 +1,2 @@
-# python
-primeiros projetos em python
+# Python
+Primeiros projetos em Python
